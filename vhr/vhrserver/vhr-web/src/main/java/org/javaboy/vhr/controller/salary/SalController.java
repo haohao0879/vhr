@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/salary/sob")
-public class SalaryController {
+@RequestMapping("/salary/sal")
+public class SalController {
     @Autowired
     SalaryService salaryService;
 

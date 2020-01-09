@@ -1,11 +1,10 @@
 package org.javaboy.vhr.controller.salary;
 
-import org.javaboy.vhr.model.Employee;
 import org.javaboy.vhr.model.RespBean;
 import org.javaboy.vhr.model.RespPageBean;
 import org.javaboy.vhr.model.Salary;
 import org.javaboy.vhr.service.EmployeeService;
-import org.javaboy.vhr.service.SalaryService;
+import org.javaboy.vhr.service.impl.SalaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
